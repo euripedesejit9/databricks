@@ -11,4 +11,7 @@
     - Descriptions:
         - Creating a single job to control the orchestration.
         - Creating a generic job to receive parameters and thus gain scalability if necessary.
+    - HLR : <div style="display: inline_block"><br/>
+            <img align="center" alt="Workflow Schedule Control" src="databricks/EJIT-01/HLR/Workflow Schedule Control.png"/>
+        </div>
     - Date: TBC 
