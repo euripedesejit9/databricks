@@ -1,0 +1,15 @@
+ABC123DEF456:
+  name: Splinter Cell
+  mobile: 
+   - Iphone
+   - Android
+  schedule:
+    timezone: utc
+    splinter_alert:
+     - enable
+     - Job_id: TO BE DEFINE
+     - trigger_at :
+      - 09:00
+      - 10:00
+      - 15:00
+      - 18:00
