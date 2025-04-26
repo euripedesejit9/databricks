@@ -8,6 +8,10 @@
 
 ### Features
 - EJIT-01 Databricks Workflows - Trigger Jobs
+    - Requirements:
+        - Databricks API Token -> Settings/ Developer/ Access Tokens
+        ![image](https://github.com/user-attachments/assets/e01f695f-5912-4288-ad85-a0209729b8d8)
+  
     - Descriptions:
         - Creating a single job to control the orchestration.
         - Creating a generic job to receive parameters and thus gain scalability if necessary.
