@@ -1,0 +1,29 @@
+{
+  "name": "[DE Team] - Fornecedor_mobile",
+  "email_notifications": {
+    "no_alert_for_skipped_runs": false
+  },
+  "webhook_notifications": {},
+  "timeout_seconds": 0,
+  "max_concurrent_runs": 1,
+  "tasks": [
+    {
+      "task_key": "Splinter_Alert",
+      "run_if": "ALL_SUCCESS",
+      "notebook_task": {
+        "notebook_path": "/yourRepository/databricks/EJIT-01/orchestration/pl_fornecedor_mobile",
+        "source": "WORKSPACE"
+      },
+      "existing_cluster_id": "0421-060137-52r1swig",
+      "timeout_seconds": 0,
+      "email_notifications": {},
+      "webhook_notifications": {}
+    }
+  ],
+  "queue": {
+    "enabled": true
+  },
+  "run_as": {
+    "user_name": "YOUR_USER"
+  }
+}
