@@ -14,7 +14,8 @@
     - HLR : <div style="display: inline_block"><br/>
             <img align="center" alt="Workflow Schedule Control" src="databricks/EJIT-01/HLR/Workflow Schedule Control.png"/>
         </div>
-    - Deliver Date: 2025-04-26 
+    - Deliver Date: 2025-04-26
+    - Path: https://github.com/euripedesejit9/databricks/tree/main/databricks/EJIT-01
  
 - Result:
   - ScheduleControl Run and will should start the Job_id registered on Yaml File
