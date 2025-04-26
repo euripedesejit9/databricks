@@ -1,0 +1,19 @@
+ABC123DEF456:
+  name: Splinter Cell
+  mobile: 
+   - Iphone
+   - Android
+  schedule:
+    margin_time: 10
+    timezone: utc
+    pipelines:
+      splinter_alert:
+        enable: True
+        job_id: "255587089826941"
+        trigger_at :
+          - '09:00'
+          - '10:00'
+          - '15:00'
+          - '19:10'
+          - '19:20'
+          - '20:48'
